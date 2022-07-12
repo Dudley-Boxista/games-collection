@@ -10,10 +10,12 @@ export class TestComponentComponent implements OnInit {
 
   @Input() gameName: string;
   @Input() imgUrl: string;
+  @Input() inactive: boolean;
 
   constructor() {
     this.gameName = '';
     this.imgUrl = '';
+    this.inactive = true;
   }
 
   ngOnInit(): void {
