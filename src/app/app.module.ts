@@ -5,12 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CardComponent } from './card/card.component';
 import { TestComponentComponent } from './test-component/test-component.component';
+import { FooterComponentComponent } from './footer-component/footer-component.component';
+import { HeaderComponentComponent } from './header-component/header-component.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CardComponent,
-    TestComponentComponent
+    TestComponentComponent,
+    FooterComponentComponent,
+    HeaderComponentComponent
   ],
   imports: [
     BrowserModule,
