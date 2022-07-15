@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-test-component',
@@ -12,13 +13,15 @@ export class TestComponentComponent implements OnInit {
   @Input() imgUrl: string;
   @Input() inactive: boolean;
 
-  constructor() {
+  constructor(private route: ActivatedRoute) {
     this.gameName = '';
     this.imgUrl = '';
     this.inactive = true;
   }
 
   ngOnInit(): void {
+    this.gameName  =  this.route.snapshot.params['name'];
+    this.imgUrl = this.route.snapshot.params['img'];
   }
 
 }
