@@ -1,16 +1,17 @@
-
 <div class="container contact">
     <h5>Cadastro</h5>
     <form class="col s12" #form="ngForm" (submit)="onSubmit()">
         <div class="input-field col s12">
-            <input id="input-name" name="input-name" type="text" [(ngModel)]="this.game.name" class="validate" #name="ngModel" required />
+            <input id="input-name" name="input-name" type="text" [(ngModel)]="this.game.name" class="validate"
+                #name="ngModel" required />
             <label for="input-name">Nome do Jogo</label>
             <div class="red-text" [hidden]="name.valid || name.untouched">
                 Informe o nome do jogo
             </div>
         </div>
         <div class="input-field col s12">
-            <input id="input-imgUrl" name="input-imgUrl" type="text" [(ngModel)]="this.game.imgUrl" class="validate" #imgUrl="ngModel" />
+            <input id="input-imgUrl" name="input-imgUrl" type="text" [(ngModel)]="this.game.imgUrl" class="validate"
+                #imgUrl="ngModel" />
             <label for="input-imgUrl">Url da imagem</label>
             <div class="red-text" [hidden]="imgUrl.valid || imgUrl.untouched">
                 Informe o nome do jogo
@@ -24,7 +25,17 @@
 
     <div>
         <div *ngFor="let g of games">
-            <app-test-component gameName={{g.name}} imgUrl={{g.imgUrl}}></app-test-component>
+            <div class="card card-small">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator img-responsive" src={{g.imgUrl}}>
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">{{g.name}}</span>
+                </div>
+                <a><i class="material-icons my-icon-size" (click)="onEdit(g)">edit</i></a>
+                <a><i class="material-icons my-icon-size" (click)="onDelete(g.name)">delete</i></a>
+              </div>
+            
         </div>
     </div>
 </div>

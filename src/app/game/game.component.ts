@@ -43,4 +43,26 @@ export class GameComponent implements OnInit {
     this.game = new Game('');
     this.games = this.gameService.getGames();
   }
+
+  onEdit(game: Game) {
+    this.game = game;
+  }
+
+  onDelete(name: string) {
+    let confirmation = window.confirm(
+      'Você tem certeza que deseja remover ' + name
+    );
+    if (!confirmation) {
+      return;
+    }
+    let response: boolean = this.gameService.delete(name);
+    this.isShowMessage = true;
+    this.isSuccess = response;
+    if (response) {
+      this.message = 'O item foi removido com sucesso!';
+    } else {
+      this.message = 'Opps! O item não pode ser removido!';
+    }
+    this.games = this.gameService.getGames();
+  }
 }
