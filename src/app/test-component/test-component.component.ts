@@ -20,8 +20,6 @@ export class TestComponentComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.gameName  =  this.route.snapshot.params['name'];
-    this.imgUrl = this.route.snapshot.params['img'];
   }
 
 }
