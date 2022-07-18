@@ -2,6 +2,27 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
 
+# Checklist
+
+- [v] Criar o repositório no GitHub com a estrutura do Gitflow, ou seja, branches main e develop.
+- [v] Usar componentes de algum framework CSS (Bootstrap, Materialize ou outro)
+- [v] Apresentar as telas com layout responsivo usando ou não algum framework CSS.
+- [v] Construir páginas web com o conceito de componentes.
+- [v] Criar o layout da aplicação com componentes, ou seja, o cabeçalho e rodapé precisam ser componentes.
+- [v] Usar pelo menos dois tipos de data-binding (Interpolation, Property Binding, Event Binding e Two Way Data Binding).
+- [v] Passar dados via hierarquia de componentes, ou seja, usando @Input ou @Output.
+- [v] Mapear componentes à rotas no módulo de rotas.
+- [v] Criar navegação entre páginas por meio de rotas.
+- [x] Passar dados entre componentes que representam diferentes telas via parâmetros de rotas.
+- [v] Validar campos do formulário com REGEX e apresentar os erros.
+- [v] Desabilitar o botão de submit enquanto o formulário está inválido.
+- [x] Fazer requisições a API com tratamento da resposta com Promises ou Observables.
+- [x] Cadastrar uma entidade no JSON Server.
+- [v] Apresentar uma lista de dados com a diretiva estrutural ngFor.
+- [v] Usar a diretiva ngIf
+- [x] Formatar a apresentação de dados com Pipes.
+- [v] Build e deploy da aplicação.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
