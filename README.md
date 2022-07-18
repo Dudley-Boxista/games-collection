@@ -2,6 +2,10 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
 
+# Link to github pages
+
+https://dudley-boxista.github.io/games-collection/
+
 # Checklist
 
 - :heavy_check_mark: Criar o repositório no GitHub com a estrutura do Gitflow, ou seja, branches main e develop.
