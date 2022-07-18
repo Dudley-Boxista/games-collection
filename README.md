@@ -4,24 +4,24 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 # Checklist
 
-- [v] Criar o repositório no GitHub com a estrutura do Gitflow, ou seja, branches main e develop.
-- [v] Usar componentes de algum framework CSS (Bootstrap, Materialize ou outro)
-- [v] Apresentar as telas com layout responsivo usando ou não algum framework CSS.
-- [v] Construir páginas web com o conceito de componentes.
-- [v] Criar o layout da aplicação com componentes, ou seja, o cabeçalho e rodapé precisam ser componentes.
-- [v] Usar pelo menos dois tipos de data-binding (Interpolation, Property Binding, Event Binding e Two Way Data Binding).
-- [v] Passar dados via hierarquia de componentes, ou seja, usando @Input ou @Output.
-- [v] Mapear componentes à rotas no módulo de rotas.
-- [v] Criar navegação entre páginas por meio de rotas.
+- :heavy_check_mark: Criar o repositório no GitHub com a estrutura do Gitflow, ou seja, branches main e develop.
+- :heavy_check_mark: Usar componentes de algum framework CSS (Bootstrap, Materialize ou outro)
+- :heavy_check_mark: Apresentar as telas com layout responsivo usando ou não algum framework CSS.
+- :heavy_check_mark: Construir páginas web com o conceito de componentes.
+- :heavy_check_mark: Criar o layout da aplicação com componentes, ou seja, o cabeçalho e rodapé precisam ser componentes.
+- :heavy_check_mark: Usar pelo menos dois tipos de data-binding (Interpolation, Property Binding, Event Binding e Two Way Data Binding).
+- :heavy_check_mark: Passar dados via hierarquia de componentes, ou seja, usando @Input ou @Output.
+- :heavy_check_mark: Mapear componentes à rotas no módulo de rotas.
+- :heavy_check_mark: Criar navegação entre páginas por meio de rotas.
 - [x] Passar dados entre componentes que representam diferentes telas via parâmetros de rotas.
-- [v] Validar campos do formulário com REGEX e apresentar os erros.
-- [v] Desabilitar o botão de submit enquanto o formulário está inválido.
+- :heavy_check_mark: Validar campos do formulário com REGEX e apresentar os erros.
+- :heavy_check_mark: Desabilitar o botão de submit enquanto o formulário está inválido.
 - [x] Fazer requisições a API com tratamento da resposta com Promises ou Observables.
 - [x] Cadastrar uma entidade no JSON Server.
-- [v] Apresentar uma lista de dados com a diretiva estrutural ngFor.
-- [v] Usar a diretiva ngIf
+- :heavy_check_mark: Apresentar uma lista de dados com a diretiva estrutural ngFor.
+- :heavy_check_mark: Usar a diretiva ngIf
 - [x] Formatar a apresentação de dados com Pipes.
-- [v] Build e deploy da aplicação.
+- :heavy_check_mark: Build e deploy da aplicação.
 
 ## Development server
 
